@@ -214,8 +214,8 @@ let
           description = ''
             If set, the filesystem is grown to its maximum size before
             being mounted. (This is typically the size of the containing
-            partition.) This is currently only supported for ext2/3/4
-            filesystems that are mounted during early boot.
+            partition.) This is currently only supported for ext3/4, btrfs
+            and xfs filesystems that are mounted during early boot.
           '';
         };
 
